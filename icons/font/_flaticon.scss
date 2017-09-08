@@ -1,0 +1,167 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:05
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-alarm-clock:before { content: "\f100"; }
+.flaticon-backward-arrows-button-outline:before { content: "\f101"; }
+.flaticon-bling-dollar-symbol:before { content: "\f102"; }
+.flaticon-cellular-phone-set-with-auricular-and-cord:before { content: "\f103"; }
+.flaticon-close-rounded-square-button:before { content: "\f104"; }
+.flaticon-coffee-drink-glass-outline-with-cover:before { content: "\f105"; }
+.flaticon-darth-vader-frontal-head-outline:before { content: "\f106"; }
+.flaticon-dashboard:before { content: "\f107"; }
+.flaticon-decrease-volume-interface-speaker-outline-symbol:before { content: "\f108"; }
+.flaticon-diamond-ring-jewel-outline-from-top-view:before { content: "\f109"; }
+.flaticon-donut-sweet-dessert-with-a-flower-shape-in-the-circle-outline-from-top-view:before { content: "\f10a"; }
+.flaticon-dribbble-ball-logo-outline:before { content: "\f10b"; }
+.flaticon-eject-multimedia-circular-button-with-up-arrow-in-a-circle-outline:before { content: "\f10c"; }
+.flaticon-facebook-like-hand-symbol-outline:before { content: "\f10d"; }
+.flaticon-facebook-social-letter-logo-outline-inside-double-rounded-square:before { content: "\f10e"; }
+.flaticon-fast-forward-arrows-circular-button-outline-for-multimedia-interface:before { content: "\f10f"; }
+.flaticon-fork-and-knife-outlines-cross:before { content: "\f110"; }
+.flaticon-game-pad:before { content: "\f111"; }
+.flaticon-hammer-tool-outline:before { content: "\f112"; }
+.flaticon-headphones-outline-with-cord-line:before { content: "\f113"; }
+.flaticon-ice-cream-cone-outline:before { content: "\f114"; }
+.flaticon-increase-volume-interface-symbol-of-a-speaker-outline:before { content: "\f115"; }
+.flaticon-instagram-photo-camera-logo-outline:before { content: "\f116"; }
+.flaticon-lego-3d-rectangle-outline:before { content: "\f117"; }
+.flaticon-lego-cube-or-square:before { content: "\f118"; }
+.flaticon-light-bulb-outline:before { content: "\f119"; }
+.flaticon-long-record-player-vintage-tool-outline:before { content: "\f11a"; }
+.flaticon-macbook-pro-computer-tool-outline:before { content: "\f11b"; }
+.flaticon-marker-outline:before { content: "\f11c"; }
+.flaticon-meat-cleaver:before { content: "\f11d"; }
+.flaticon-mute-interface-symbol-outline-of-a-speaker-with-a-small-cross:before { content: "\f11e"; }
+.flaticon-new-email-closed-envelope-back-with-a-heart-in-rounded-rectangular-shape-outline-for-interface:before { content: "\f11f"; }
+.flaticon-next-chapter-button-outline:before { content: "\f120"; }
+.flaticon-notebook-of-spring-outline-with-a-skull-and-a-heart:before { content: "\f121"; }
+.flaticon-pause-multimedia-controls-circular-button-outline:before { content: "\f122"; }
+.flaticon-photo-camera-front-outline:before { content: "\f123"; }
+.flaticon-pinterest-letter-logo-outline-in-a-rounded-square:before { content: "\f124"; }
+.flaticon-play-circular-button-outline:before { content: "\f125"; }
+.flaticon-postcard-rectangular-rounded-outline:before { content: "\f126"; }
+.flaticon-previous-chapter-arrow-button:before { content: "\f127"; }
+.flaticon-previous-left-arrow-circular-symbol-outline:before { content: "\f128"; }
+.flaticon-question-circular-speech-bubble-outline:before { content: "\f129"; }
+.flaticon-record-circles-button:before { content: "\f12a"; }
+.flaticon-red-wine-glass:before { content: "\f12b"; }
+.flaticon-right-arrow-in-double-circle-outline:before { content: "\f12c"; }
+.flaticon-safety-pin-tool-outline-from-side-view-in-vertical-position:before { content: "\f12d"; }
+.flaticon-scissors-outline-pointing-down:before { content: "\f12e"; }
+.flaticon-search-interface-symbol-of-a-magnifier-with-an-eye-inside:before { content: "\f12f"; }
+.flaticon-shopping-bag-outline-tool-with-a-small-heart:before { content: "\f130"; }
+.flaticon-skull-variant:before { content: "\f131"; }
+.flaticon-sneaker-shoe-outline-of-fashion-walking-tool:before { content: "\f132"; }
+.flaticon-speech-bubble-of-circular-shape-with-female-lips-mouth-outline-inside:before { content: "\f133"; }
+.flaticon-stop-player-button-outline:before { content: "\f134"; }
+.flaticon-suitcase-for-travelling-baggage-outline:before { content: "\f135"; }
+.flaticon-toad-mushroom:before { content: "\f136"; }
+.flaticon-toilet-paper-roll-outline:before { content: "\f137"; }
+.flaticon-tumblr-letter-logo-outline-in-a-rounded-square:before { content: "\f138"; }
+.flaticon-twitter-bird-logo-outline:before { content: "\f139"; }
+.flaticon-vimeo-letter-logo-in-a-rounded-square:before { content: "\f13a"; }
+.flaticon-watermelon-fruit-slice-outline-with-drops:before { content: "\f13b"; }
+.flaticon-whisk-cooking-tool:before { content: "\f13c"; }
+.flaticon-yes-button-circular-outline:before { content: "\f13d"; }
+.flaticon-zoom-in-interface-symbol-of-a-magnifier-with-plus-sign:before { content: "\f13e"; }
+.flaticon-zoom-out-interface-outline-symbol:before { content: "\f13f"; }
+    
+    $font-Flaticon-alarm-clock: "\f100";
+    $font-Flaticon-backward-arrows-button-outline: "\f101";
+    $font-Flaticon-bling-dollar-symbol: "\f102";
+    $font-Flaticon-cellular-phone-set-with-auricular-and-cord: "\f103";
+    $font-Flaticon-close-rounded-square-button: "\f104";
+    $font-Flaticon-coffee-drink-glass-outline-with-cover: "\f105";
+    $font-Flaticon-darth-vader-frontal-head-outline: "\f106";
+    $font-Flaticon-dashboard: "\f107";
+    $font-Flaticon-decrease-volume-interface-speaker-outline-symbol: "\f108";
+    $font-Flaticon-diamond-ring-jewel-outline-from-top-view: "\f109";
+    $font-Flaticon-donut-sweet-dessert-with-a-flower-shape-in-the-circle-outline-from-top-view: "\f10a";
+    $font-Flaticon-dribbble-ball-logo-outline: "\f10b";
+    $font-Flaticon-eject-multimedia-circular-button-with-up-arrow-in-a-circle-outline: "\f10c";
+    $font-Flaticon-facebook-like-hand-symbol-outline: "\f10d";
+    $font-Flaticon-facebook-social-letter-logo-outline-inside-double-rounded-square: "\f10e";
+    $font-Flaticon-fast-forward-arrows-circular-button-outline-for-multimedia-interface: "\f10f";
+    $font-Flaticon-fork-and-knife-outlines-cross: "\f110";
+    $font-Flaticon-game-pad: "\f111";
+    $font-Flaticon-hammer-tool-outline: "\f112";
+    $font-Flaticon-headphones-outline-with-cord-line: "\f113";
+    $font-Flaticon-ice-cream-cone-outline: "\f114";
+    $font-Flaticon-increase-volume-interface-symbol-of-a-speaker-outline: "\f115";
+    $font-Flaticon-instagram-photo-camera-logo-outline: "\f116";
+    $font-Flaticon-lego-3d-rectangle-outline: "\f117";
+    $font-Flaticon-lego-cube-or-square: "\f118";
+    $font-Flaticon-light-bulb-outline: "\f119";
+    $font-Flaticon-long-record-player-vintage-tool-outline: "\f11a";
+    $font-Flaticon-macbook-pro-computer-tool-outline: "\f11b";
+    $font-Flaticon-marker-outline: "\f11c";
+    $font-Flaticon-meat-cleaver: "\f11d";
+    $font-Flaticon-mute-interface-symbol-outline-of-a-speaker-with-a-small-cross: "\f11e";
+    $font-Flaticon-new-email-closed-envelope-back-with-a-heart-in-rounded-rectangular-shape-outline-for-interface: "\f11f";
+    $font-Flaticon-next-chapter-button-outline: "\f120";
+    $font-Flaticon-notebook-of-spring-outline-with-a-skull-and-a-heart: "\f121";
+    $font-Flaticon-pause-multimedia-controls-circular-button-outline: "\f122";
+    $font-Flaticon-photo-camera-front-outline: "\f123";
+    $font-Flaticon-pinterest-letter-logo-outline-in-a-rounded-square: "\f124";
+    $font-Flaticon-play-circular-button-outline: "\f125";
+    $font-Flaticon-postcard-rectangular-rounded-outline: "\f126";
+    $font-Flaticon-previous-chapter-arrow-button: "\f127";
+    $font-Flaticon-previous-left-arrow-circular-symbol-outline: "\f128";
+    $font-Flaticon-question-circular-speech-bubble-outline: "\f129";
+    $font-Flaticon-record-circles-button: "\f12a";
+    $font-Flaticon-red-wine-glass: "\f12b";
+    $font-Flaticon-right-arrow-in-double-circle-outline: "\f12c";
+    $font-Flaticon-safety-pin-tool-outline-from-side-view-in-vertical-position: "\f12d";
+    $font-Flaticon-scissors-outline-pointing-down: "\f12e";
+    $font-Flaticon-search-interface-symbol-of-a-magnifier-with-an-eye-inside: "\f12f";
+    $font-Flaticon-shopping-bag-outline-tool-with-a-small-heart: "\f130";
+    $font-Flaticon-skull-variant: "\f131";
+    $font-Flaticon-sneaker-shoe-outline-of-fashion-walking-tool: "\f132";
+    $font-Flaticon-speech-bubble-of-circular-shape-with-female-lips-mouth-outline-inside: "\f133";
+    $font-Flaticon-stop-player-button-outline: "\f134";
+    $font-Flaticon-suitcase-for-travelling-baggage-outline: "\f135";
+    $font-Flaticon-toad-mushroom: "\f136";
+    $font-Flaticon-toilet-paper-roll-outline: "\f137";
+    $font-Flaticon-tumblr-letter-logo-outline-in-a-rounded-square: "\f138";
+    $font-Flaticon-twitter-bird-logo-outline: "\f139";
+    $font-Flaticon-vimeo-letter-logo-in-a-rounded-square: "\f13a";
+    $font-Flaticon-watermelon-fruit-slice-outline-with-drops: "\f13b";
+    $font-Flaticon-whisk-cooking-tool: "\f13c";
+    $font-Flaticon-yes-button-circular-outline: "\f13d";
+    $font-Flaticon-zoom-in-interface-symbol-of-a-magnifier-with-plus-sign: "\f13e";
+    $font-Flaticon-zoom-out-interface-outline-symbol: "\f13f";
