@@ -1,3 +1,6 @@
+$primary-color: #1BB7A8;
+$secondary-color: #D92D89;
+
 /****** GLOBAL *********/
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
@@ -20,7 +23,7 @@ body {
 }
 .navbar-brand {
   font-family: 'fuji_quake_zone-webfont';
-  color: #1BB7A8;
+  color: $primary-color;
   text-transform: uppercase;
   padding: 30px;
   font-size: 40px;
@@ -32,7 +35,7 @@ ul.navbar-nav {
   margin-top: -40px;
 }
 a.nav-link {
-  color: #1BB7A8;
+  color: $primary-color;
   text-transform: uppercase;
 }
 
@@ -65,8 +68,7 @@ section.module.parallax h1 {
   line-height: 1;
   font-weight: 700;
   font-size: 100px !important;
-  color: #D92D89;
-  color: #1BB7A8;
+  color: $primary-color;
 }
 section.module.parallax-1 {
   background-image: url("img/space.jpg");
