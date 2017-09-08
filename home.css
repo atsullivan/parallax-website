@@ -64,9 +64,10 @@ section.module.parallax h1 {
   color: #1BB7A8; }
 
 section.module.parallax-1 {
-  background-image: url("img/space.jpg");
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  background: linear-gradient(315deg, rgba(217, 45, 137, 0.7) 0%, rgba(27, 183, 168, 0.7) 100%), url("img/space.jpg");
+  background-size: cover; }
 
 section.module.content {
   padding: 15vh 20vh 10vh 20vh; }
