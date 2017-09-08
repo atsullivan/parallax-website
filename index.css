@@ -1,0 +1,78 @@
+/****** GLOBAL *********/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Oranienbaum');
+@font-face {
+  font-family: 'shamery';
+  src: url('../assets/fonts/shamery.otf') format('otf');
+}
+@font-face {
+  font-family: 'fuji_quake_zone-webfont';
+  src: url('fonts/fuji_quake_zone-webfont.ttf') format('truetype');
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/****** NAVBAR *********/
+.navbar-collapse {
+  background-color: transparent;
+}
+.navbar-brand {
+  font-family: 'fuji_quake_zone-webfont';
+  color: #1BB7A8;
+  text-transform: uppercase;
+  padding: 30px;
+  font-size: 40px;
+}
+ul.navbar-nav {
+  position: absolute;
+  right: 0;
+  padding-right: 30px;
+  margin-top: -30px;
+}
+a.nav-link {
+  color: #1BB7A8;
+  text-transform: uppercase;
+}
+
+/****** HEADER *********/
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: white;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 300;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  padding: 300px 0;
+  background-size: 100%;
+  height: 100vh;
+}
+section.module.parallax h1 {
+  font-size: 106px;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 100px !important;
+  color: #D92D89;
+  color: #1BB7A8;
+}
+section.module.parallax-1 {
+  background-image: url("img/space.jpg");
+  text-align: center;
+  text-transform: uppercase;
+}
+section.module.content {
+  padding: 15vh 20vh 10vh 20vh;
+}
