@@ -1,13 +1,16 @@
+/****** VARIABLES *********/
 $primary-color: #1BB7A8;
 $secondary-color: #D92D89;
-$primary-transparent-color: rgba(27,183,168, 0.7);
-$secondary-transparent-color: rgba(217,45,137, 0.7);
-$gradient: linear-gradient(315deg, $secondary-transparent-color 0%, $primary-transparent-color 100%);
+$gradient_level: 0.6;
+$primary-transparent-color: rgba(27,183,168, $gradient_level);
+$secondary-transparent-color: rgba(217,45,137, $gradient_level);
+$gradient: linear-gradient(315deg, $secondary-transparent-color, $primary-transparent-color);
 
 /****** GLOBAL *********/
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Oranienbaum');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
 @font-face {
   font-family: 'shamery';
   src: url('../assets/fonts/shamery.otf') format('otf');
@@ -21,25 +24,32 @@ body {
 }
 
 /****** NAVBAR *********/
-.navbar-collapse {
+.navbar {
+  background-color: #333333;
   background-color: transparent;
+  background-color: #1B1F21;
 }
 .navbar-brand {
   font-family: 'fuji_quake_zone-webfont';
+  // font-family: 'Libre Barcode 39 Text', cursive;
   color: $primary-color;
   text-transform: uppercase;
-  padding: 30px;
+  padding-left: 30px;
   font-size: 40px;
 }
 ul.navbar-nav {
   position: absolute;
   right: 0;
   padding-right: 30px;
-  margin-top: -40px;
+  margin-top: -20px;
 }
 a.nav-link {
-  color: $primary-color;
+  color: white;
   text-transform: uppercase;
+  margin-right: 20px;
+  margin-left: 20px;
+  letter-spacing: 3px;
+  font-weight: 300;
 }
 
 /****** HEADER *********/
@@ -50,8 +60,15 @@ a.nav-link {
 }
 section.module h2 {
   margin-bottom: 40px;
-  font-size: 40px;
+  font-size: 50px;
+  letter-spacing: 3px;
   color: white;
+  font-family: 'shamery';
+}
+section.module h3 {
+  // color: $primary-color;
+  font-family: 'shamery';
+  text-transform: uppercase;
 }
 section.module p {
   margin-bottom: 40px;
@@ -72,11 +89,16 @@ section.module.parallax h1 {
   font-weight: 700;
   font-size: 100px !important;
   color: $primary-color;
+  color: white;
 }
 section.module.parallax-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  background: $gradient, url("img/space.jpg");
+  background: $gradient, url("img/space2.jpg");
+  // background-image: url("img/space.jpg");
   background-size:cover;
 }
 section.module.content {
