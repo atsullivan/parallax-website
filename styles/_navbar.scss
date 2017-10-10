@@ -1,0 +1,30 @@
+.navbar {
+  background-color: $dark-gray; }
+
+.navbar-brand {
+  font-family: 'fuji_quake_zone-webfont';
+  color: $primary-color;
+  text-transform: uppercase;
+  padding-left: 30px;
+  font-size: 40px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease; }
+  .navbar-brand:hover {
+    color: white; }
+
+ul.navbar-nav {
+  position: absolute;
+  right: 0;
+  padding-right: 30px;
+  margin-top: -20px; }
+
+a.nav-link {
+  color: white;
+  text-transform: uppercase;
+  margin-right: 20px;
+  margin-left: 20px;
+  letter-spacing: 3px;
+  font-weight: 300; }

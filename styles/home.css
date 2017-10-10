@@ -1,22 +1,17 @@
-/****** VARIABLES *********/
-/****** GLOBAL *********/
+/****** PARTIALS *********/
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,900");
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Oranienbaum");
 @import url("https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text");
 @font-face {
   font-family: 'shamery';
-  src: url("../assets/fonts/shamery.otf") format("otf"); }
+  src: url("../fonts/shamery.otf") format("otf"); }
 @font-face {
   font-family: 'fuji_quake_zone-webfont';
-  src: url("fonts/fuji_quake_zone-webfont.ttf") format("truetype"); }
-body {
-  font-family: 'Lato', sans-serif; }
-
-/****** NAVBAR *********/
+  src: url("../fonts/fuji_quake_zone-webfont.ttf") format("truetype"); }
+/****** COLORS *********/
+/****** GRADIENT *********/
 .navbar {
-  background-color: #333333;
-  background-color: transparent;
   background-color: #1B1F21; }
 
 .navbar-brand {
@@ -24,7 +19,15 @@ body {
   color: #1BB7A8;
   text-transform: uppercase;
   padding-left: 30px;
-  font-size: 40px; }
+  font-size: 40px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease; }
+
+.navbar-brand:hover {
+  color: white; }
 
 ul.navbar-nav {
   position: absolute;
@@ -39,6 +42,10 @@ a.nav-link {
   margin-left: 20px;
   letter-spacing: 3px;
   font-weight: 300; }
+
+/****** GLOBAL *********/
+body {
+  font-family: 'Lato', sans-serif; }
 
 /****** HEADER *********/
 .container {
@@ -55,15 +62,22 @@ section.module h2 {
 
 section.module h3 {
   font-family: 'shamery';
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: white;
+  color: #1BB7A8; }
 
 section.module p {
   margin-bottom: 40px;
-  font-size: 20px;
-  font-weight: 300; }
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: white; }
 
 section.module.content {
-  padding: 40px 0; }
+  padding: 40px 0;
+  background-color: #1B1F21; }
 
 section.module.parallax {
   padding: 300px 0;
@@ -84,10 +98,25 @@ section.module.parallax-1 {
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  background: linear-gradient(315deg, rgba(217, 45, 137, 0.6), rgba(27, 183, 168, 0.6)), url("img/space2.jpg");
+  background: linear-gradient(315deg, rgba(217, 45, 137, 0.6), rgba(27, 183, 168, 0.6)), url("../img/space2.jpg");
   background-size: cover; }
 
 section.module.content {
-  padding: 15vh 20vh 10vh 20vh; }
+  padding: 15vh 20vw 10vh 20vw; }
+
+section.module.footer h1 {
+  text-transform: uppercase;
+  font-family: 'fuji_quake_zone-webfont';
+  color: white; }
+
+section.module.footer {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #1B1F21;
+  color: white; }
+
+.fa {
+  margin: 30px; }
 
 /*# sourceMappingURL=home.css.map */
