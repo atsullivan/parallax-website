@@ -4,6 +4,9 @@
 .navbar-brand {
   font-family: 'fuji_quake_zone-webfont';
   color: $primary-color;
+  // background: -webkit-linear-gradient(315deg, $br-red, $br-blue);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   padding-left: 30px;
   font-size: 40px;

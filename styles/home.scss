@@ -6,52 +6,28 @@
 /****** GLOBAL *********/
 body {
   font-family: 'Lato', sans-serif;
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
 }
 
 /****** HEADER *********/
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-}
-section.module h2 {
-  margin-bottom: 40px;
-  font-size: 50px;
-  letter-spacing: 3px;
-  color: white;
-  font-family: 'shamery';
-}
-section.module h3 {
-  font-family: 'shamery';
-  text-transform: uppercase;
-  font-size: 40px;
-  margin-bottom: 30px;
-  color: white;
-  color: $primary-color;
-}
-section.module p {
-  margin-bottom: 40px;
-  font-size: 25px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  color: white;
-}
-section.module.content {
-  padding: 40px 0;
-  background-color: $dark-gray;
-}
 section.module.parallax {
   padding: 300px 0;
   background-size: 100%;
   height: 100vh;
-}
-section.module.parallax h1 {
-  font-size: 106px;
-  line-height: 1;
-  font-weight: 700;
-  font-size: 100px !important;
-  color: $primary-color;
-  color: white;
+  h1 {
+    font-size: 106px;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 100px !important;
+    padding-bottom: 20px;
+
+    // color: $primary-color;
+    color: white;
+  }
 }
 section.module.parallax-1 {
   display: flex;
@@ -59,24 +35,66 @@ section.module.parallax-1 {
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  background: $gradient, url("../img/space2.jpg");
+  background: $gradient, url("../img/space3.jpg");
   background-size:cover;
+}
+
+/****** CONTENT *********/
+section.module {
+  h2 {
+    margin-bottom: 40px;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'shamery';
+  }
+  h3 {
+    font-family: 'shamery';
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: white;
+    color: $primary-color;
+  }
+  p {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
 }
 section.module.content {
   padding: 15vh 20vw 10vh 20vw;
 }
-section.module.footer h1 {
-  text-transform: uppercase;
-  font-family: 'fuji_quake_zone-webfont';
-  color: white;
+section.module.dark {
+  background-color: $dark-gray;
+  p {
+    color: white;
+  }
 }
+section.module.light {
+  background-color: white;
+  p {
+    color: black;
+  }
+}
+
+/****** FOOTER *********/
 section.module.footer {
   text-align: center;
   padding-top: 150px;
   padding-bottom: 150px;
   background-color: $dark-gray;
   color: white;
-}
-.fa {
-  margin: 30px;
+  h2 {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'shamery';
+    color: gray;
+    padding-bottom: 20px;
+  }
+  .fa {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
 }

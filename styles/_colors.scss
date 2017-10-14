@@ -8,3 +8,12 @@ $gradient_level: 0.6;
 $primary-transparent-color: rgba(27,183,168, $gradient_level);
 $secondary-transparent-color: rgba(217,45,137, $gradient_level);
 $gradient: linear-gradient(315deg, $secondary-transparent-color, $primary-transparent-color);
+
+// Blade Runner Colors
+$br-blue: #4EB4AB;
+$br-red: #EC3325;
+
+$gradient_level2: 0.6;
+$br-blue-transparent: rgba(78,180,171, $gradient_level2);
+$br-red-transparent: rgba(236,51,37, $gradient_level2);
+$br-gradient: linear-gradient(315deg, $br-red-transparent, $br-blue-transparent);
